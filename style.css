@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner{
@@ -40,7 +40,7 @@ body{
     height: 100%;
     width: 7%;
     float: right;
-    background-color: #ff0000;
+    background-color: #ce8787;
     position: relative;
     z-index: 2;
 }
@@ -96,6 +96,7 @@ body{
 
 .share img{
     width: 20px;
+    height: 20px;
     margin-right: 12px;
     cursor: pointer;
 }
@@ -123,9 +124,26 @@ body{
 }
 
 .top-bar ul li a{
-    color: #fff;
-    display: block;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
     padding-top: 5px;
+    font-size: 16x;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+
+
+}
+
+.top-bar ul li a:hover{
+    color: rebeccapurple;
+    background: #2196f3;
+    text-decoration: none;
+    box-shadow: 0 0 10px #2196f3,  0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.3s;
+
+
 
 }
 
